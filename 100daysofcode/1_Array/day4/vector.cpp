@@ -1,13 +1,13 @@
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
 using namespace std;
 
-int main() {
-   
 
-   // 2 arrays
-    vector<int> arr{1,2,3,4,5};
-     vector<int> brr{3,4,8,9};
+
+int main(){
+    
+    // 2 arrays
+    vector<int>arr{1,2,3,4,5};
+     vector<int>brr{3, 8,9};
     
 
     //ans naam ka vector
@@ -22,7 +22,7 @@ int main() {
                 ans.push_back(element);
         }
     }
-    }
+        
     
     //print answer
     for(auto value: ans){
@@ -30,7 +30,7 @@ int main() {
     }
 
 
-    
+    }
 
     return 0;
 
