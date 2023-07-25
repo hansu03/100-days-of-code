@@ -1,11 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-
     int arr[]= {0,1,0,0,0,1,1,0};
-
-    int size =8;
-    
+    int size = 8;
     int numZero =0;
     int numOne = 0;
 
@@ -14,7 +11,6 @@ int main(){
         if(arr[i]==0){
             numZero++;
         }
-
         // if one found , increment numOne
         if(arr[i]==1){
             numOne++;

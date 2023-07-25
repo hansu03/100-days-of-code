@@ -2,8 +2,7 @@
 using namespace std;
 
 int main(){
-
-
+    
     int arr[]={2,3,4,5,6};
     int size = 5;
     //initialize the maxi variable with the minimum possible integer value
