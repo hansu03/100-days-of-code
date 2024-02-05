@@ -1,0 +1,37 @@
+*{
+    margin: 0;  
+    padding: 0; 
+}
+
+
+h1{
+    color:red;
+    background-color: yellow;
+}
+
+p{
+    color:#000000;
+    background-color: pink;
+}
+
+#firstpara{
+    color:orangered;
+}
+
+.para{
+    color:mediumseagreen;
+}
+
+.div{
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    font-weight:900;
+    height: 20px;
+
+    /*text properties*/
+    line-height: 100px;
+    text-transform: uppercase;
+}
