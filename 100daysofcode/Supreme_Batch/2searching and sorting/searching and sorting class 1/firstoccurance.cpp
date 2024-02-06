@@ -5,6 +5,7 @@ int firstOccurance(vector<int>v, int t){
     int start = 0;
     int end = v.size() - 1;
     int ans=-1;
+    //loop
     
 
     while (start <= end) {
